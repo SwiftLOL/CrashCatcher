@@ -12,7 +12,7 @@
       
 
 ## 使用说明
-###  在didFinishLaunchingWithOptions里,判断是否连续崩溃，做相应操作:
+####  在didFinishLaunchingWithOptions里,判断是否连续崩溃，做相应操作:
 
 ```
     if(![[ExceptionCatcher ExceptionCatcher] isContinuousCrash])
