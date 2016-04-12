@@ -1,4 +1,4 @@
-# ExceptionCatcher
+# CrashCatcher
 
 ##Overview
  本工具用途为:判断iOS app是否连续崩溃。
@@ -15,9 +15,9 @@
 ####  在didFinishLaunchingWithOptions里,判断是否连续崩溃，做相应操作:
 
 ```
-    if(![[ExceptionCatcher ExceptionCatcher] isContinuousCrash])
+    if(![[CrashCatcher shareInstance] isContinuousCrash])
     {
-      //balabala
+      //code
     }
 ````     
 
